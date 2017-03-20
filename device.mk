@@ -249,7 +249,7 @@ PRODUCT_COPY_FILES += \
     device/huawei/s7/prebuilt/system/etc/audio_policy.conf:system/etc/audio_policy.conf \
     device/huawei/s7/prebuilt/system/etc/start_usb0.sh:system/etc/start_usb0.sh \
     device/huawei/s7/prebuilt/system/etc/init.d/099ledoff:system/etc/init.d/099ledoff \
-    vendor/goo/GooManager_2.1.2.apk:system/app/GooManager.apk
+#    vendor/goo/GooManager_2.1.2.apk:system/app/GooManager.apk
 
 # Bluetooth configuration files
 PRODUCT_COPY_FILES += \
@@ -274,7 +274,7 @@ PRODUCT_COPY_FILES += \
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.goo.developerid=asturel \
+    ro.goo.developerid=sliwa262 \
     ro.goo.board=$(TARGET_PRODUCT) \
     ro.goo.rom=CM101s7 \
     ro.goo.version=$(shell date +%s)
